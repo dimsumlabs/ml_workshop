@@ -11,10 +11,10 @@ around with them.
 ## Prerequisites:
 - Laptop
 - Do the following on your laptop
--- Download / install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
--- Download the ```NeuroDebian``` Virtual Machine here http://neuro.debian.net/debian/vm/NeuroDebian_7.2.0_amd64.ova
--- Open ```Virtualbox```
--- Follow http://neuro.debian.net/vm.html to import/create the VM
+    + Download / install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
+    + Download the ```NeuroDebian``` Virtual Machine here http://neuro.debian.net/debian/vm/NeuroDebian_7.2.0_amd64.ova
+    + Open ```Virtualbox```
+    + Follow http://neuro.debian.net/vm.html to import/create the VM
 - Or use your own scikit-learn / matplotlib installation
 - Some python if you want. Plenty of tutorials online, google found this: http://www.learnpython.org
 - Ability to look at a command prompt without nervous breakdown.
@@ -22,17 +22,17 @@ around with them.
 
 ## Topics are gonna be some of the following,
 - Basics of Machine Learning
--- Classification
--- Regression
+    + Classification
+    + Regression
 - Dimensionality Reduction
--- Principal Component Analysis
--- Implementation
+    + Principal Component Analysis
+    + Implementation
 - Visualization
 - Linear Discriminant Analysis
 - Support Vector Machines
--- Grid Search
+    + Grid Search
 - Ensembles
--- Random Forests
+    + Random Forests
 - ...
 
 Cost: free for DSL members, HKD 200 otherwise. Goes pretty much entirely towards rent and
