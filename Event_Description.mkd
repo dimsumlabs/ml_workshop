@@ -1,4 +1,4 @@
-Introduction to Machine Learning / python / scikit-learn workshop
+# Introduction to Machine Learning / python / scikit-learn workshop
 
 The idea is to help people get started with machine learning. It will be
 interactive and we'll be using scikit-learn (scikit-learn.org) for the
@@ -8,7 +8,7 @@ This is the first time I'm doing this. It's gonna be (w)hacky. I won't cover
 much (read, any) theory. We'll use some publicly available datasets and play
 around with them.
 
-Prerequisites:
+## Prerequisites:
 - Laptop
 - Do the following on your laptop
 -- Download / install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
@@ -20,7 +20,7 @@ Prerequisites:
 - Ability to look at a command prompt without nervous breakdown.
 
 
-Topics are gonna be some of the following,
+## Topics are gonna be some of the following,
 - Basics of Machine Learning
 -- Classification
 -- Regression
