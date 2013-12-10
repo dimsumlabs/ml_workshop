@@ -1,0 +1,39 @@
+Introduction to Machine Learning / python / scikit-learn workshop
+
+The idea is to help people get started with machine learning. It will be
+interactive and we'll be using scikit-learn (scikit-learn.org) for the
+machine Learning part and matplotlib (matplotlib.org) for visualizations.
+
+This is the first time I'm doing this. It's gonna be (w)hacky. I won't cover
+much (read, any) theory. We'll use some publicly available datasets and play
+around with them.
+
+Prerequisites:
+- Laptop
+- Do the following on your laptop
+-- Download / install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
+-- Download the ```NeuroDebian``` Virtual Machine here http://neuro.debian.net/debian/vm/NeuroDebian_7.2.0_amd64.ova
+-- Open ```Virtualbox```
+-- Follow http://neuro.debian.net/vm.html to import/create the VM
+- Or use your own scikit-learn / matplotlib installation
+- Some python if you want. Plenty of tutorials online, google found this: http://www.learnpython.org
+- Ability to look at a command prompt without nervous breakdown.
+
+
+Topics are gonna be some of the following,
+- Basics of Machine Learning
+-- Classification
+-- Regression
+- Dimensionality Reduction
+-- Principal Component Analysis
+-- Implementation
+- Visualization
+- Linear Discriminant Analysis
+- Support Vector Machines
+-- Grid Search
+- Ensembles
+-- Random Forests
+- ...
+
+Cost: free for DSL members, HKD 200 otherwise. Goes pretty much entirely towards rent and
+utilities of DSL.

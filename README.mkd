@@ -1,0 +1,7 @@
+# SKLEARN WORKSHOP
+- Install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
+- Download the ```NeuroDebian``` VM http://neuro.debian.net/debian/vm/NeuroDebian_7.2.0_amd64.ova
+- Open ```Virtualbox```
+- Follow http://neuro.debian.net/vm.html
+
+
