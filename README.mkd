@@ -1,7 +1,15 @@
 # SKLEARN WORKSHOP
-- Install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
-- Download the ```NeuroDebian``` VM http://neuro.debian.net/debian/vm/NeuroDebian_7.2.0_amd64.ova
-- Open ```Virtualbox```
-- Follow http://neuro.debian.net/vm.html
+1. If you have ```scikit learn``` and ```ipython``` go to 3. 
+2. Set up the VM:
+    + Install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
+    + Download the ```NeuroDebian``` VM http://neuro.debian.net/debian/vm/NeuroDebian_7.2.0_amd64.ova
+    + Open ```Virtualbox```
+    + Follow http://neuro.debian.net/vm.html
+    + In Virtualbox, start the VM.
+    + Once it's done booting, click on the terminal icon at the bottom
+    + run ```sudo apt-get update```
+    + run ```sudo apt-get install ipython```
+3. run ```ipython notebook --pylab```
+
 
 
