@@ -1,0 +1,56 @@
+\usefonttheme[onlylarge]{structurebold}
+\setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}
+\beamertemplatenavigationsymbolsempty
+%\setbeamercovered{transparent} 
+
+\definecolor{fore}{RGB}{30,0,0}
+\definecolor{back}{RGB}{245,240,240}
+\definecolor{title}{RGB}{100,0,0}
+\setbeamercolor{titlelike}{fg=title}
+\setbeamercolor{normal text}{fg=fore,bg=back}
+
+\usepackage{tikz,pgfplots}
+\graphicspath{{figures/},.}
+
+\usepackage[linesnumbered]{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{subfigure}
+\usepackage{wasysym}
+\usepackage[bibstyle=science]{biblatex}
+\usepackage{bigstrut}
+\usepackage{multirow}
+%\usepackage{array}
+%\usepackage{enumitem}
+\bibliography{/home/lulu/Dropbox/reports/refs/pd_refs}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+%\usepackage[latin1]{inputenc}
+%\usepackage{courier}
+%\usepackage[T1]{fontenc}
+\usepackage{bm}
+
+%user commands
+\newcommand{\mail}[1]{{\href{mailto:#1}{#1}}}
+\newcommand{\vecteur}[2]{\begin{array}{c}#1\\#2\end{array}}
+\newcommand{\ket}[1]{\left| #1 \right>} % for Dirac bras
+\newcommand{\bra}[1]{\left< #1 \right|} % for Dirac kets
+\newcommand{\braket}[2]{\left< #1 \vphantom{#2}\left|#2 \vphantom{#1} \right. \right>} % for Dirac brackets
+\newcommand{\matrixel}[3]{\left< #1 \vphantom{#2#3} \right|
+ #2 \left| #3 \vphantom{#1#2} \right>} % for Dirac matrix elements
+\let\underdot=\d % rename builtin command \d{} to \underdot{}
+\renewcommand{\d}[2]{\frac{d #1}{d #2}} % for derivatives
+\newcommand{\dd}[2]{\frac{d^2 #1}{d #2^2}} % for double derivatives
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}} 
+
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bc{\begin{center}}
+\def\ec{\end{center}}
+\def\bea{\begin{eqnarray}}
+\def\eea{\end{eqnarray}}
+\newcommand{\Matrix}[4]{\left( \begin{array}{rr}#1 & #2 \\ #3 & #4 \end{array} \right)}
+\newcommand{\payoffmatrix}[4]{\left( \begin{array}{cc}#1 & #2 \\ #3 & #4 \end{array} \right)}
+\newcommand{\paras}{\payoffmatrix{R}{S}{T}{P}}
+\newcommand{\ageing}{{\color{red}\textbf{ageing }}}
+\newcommand{\rewiring}{{\color{blue}\textbf{rewiring }}}
+\renewcommand{\S}{\mathcal{S}}
