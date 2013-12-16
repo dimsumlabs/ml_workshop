@@ -1,0 +1,73 @@
+\documentclass[
+handout,
+%article,
+%final,
+12pt,
+]{beamer}
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm,landscape]
+\usepackage{beamerdefs}
+\newcommand{\bx}{{\bf x}}
+\beamerdefaultoverlayspecification{<+->}
+
+\title[$2\times 2$ games] 
+{Introduction to Machine Learning  \\  Python  \\ Scikit Learn}
+\author[M A Antony]{  Mathis Antony \\ \vspace*{0.5cm}} 
+\institute[DSL]
+{ Dimsumlabs \\ Sheung Wan \\ Hong Kong}
+\date{\today}
+
+\begin{document}
+
+\frame{
+  \titlepage
+}
+
+%\frame{
+%\tableofcontents
+%}
+
+%\section{Introduction}
+
+\frame{\frametitle{What is Machine Learning}
+\begin{itemize}
+\item A branch of Artificial Intelligence
+\item Learning data in an automated fashion (typically using some sort of computer)
+\item Gaining insight into seemingly random/messy data
+\item Data Mining $\rightarrow$ Machine Learning $\rightarrow$ Visualization
+\end{itemize}
+
+}
+
+\frame{\frametitle{Types of Algorithms}
+\begin{itemize}
+\item Supervised Learning (labeled data, classification and regression)
+\item Unsupervised Learning (unlabeled data)
+\item Semisupervised Learning
+\item Reinforcement Learning
+\item ...
+\end{itemize}
+\begin{block}{Examples}
+\begin{itemize}
+\item Optical Character Recognition 
+\item Face Recognition
+\item Clustering 
+\item Linear Regression
+\item Collaborative Filtering
+\item ...
+\end{itemize}
+\end{block}
+}
+
+\frame{\frametitle{Problem Description}
+\begin{itemize}
+\item a $d$-dimensional feature vector: $\bx_i = (x_1, x_2, \dots, x_d)$, with $x_i \in \mathbb{R}$
+\item target variable $y_i \in \mathbb{R} (\mathbb{N})$ for regression (classification)
+\item assume $y_i = f(\bx_i) + \epsilon$, where $\epsilon$ is some form of noise or uncertainty and $f$ is some function we would like to (machine) learn
+\item theory typically requires a bit of linear algebra (mostly Matrix calculus) and analysis (gradient descent, Lagrange multipliers, ...) knowledge
+\end{itemize}
+}
+
+\end{document}
+%
+%
