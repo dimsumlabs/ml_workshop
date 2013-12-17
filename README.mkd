@@ -1,5 +1,5 @@
-# SKLEARN WORKSHOP
-1. If you have ```scikit learn``` and ```ipython``` go to 3. 
+# SKLEARN WORKSHOP SETUP
+1. If you have ```scikit-learn```, ```matplotlib``` and ```ipython``` installed go to 3. 
 2. Set up the VM:
     + Install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
     + Download the ```NeuroDebian``` VM http://neuro.debian.net/debian/vm/NeuroDebian_7.2.0_amd64.ova
@@ -12,7 +12,7 @@
         + run ```sudo cp sources.list /etc/apt/```
     + run ```sudo apt-get update```
     + run ```sudo apt-get install ipython python-matplotlib python-sklearn```
-3. run ```ipython notebook --pylab``` from within this repository
+3. run ```ipython notebook --pylab``` from within this repository and open a new notebook.
 
 
 
