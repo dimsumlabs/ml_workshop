@@ -8,6 +8,8 @@
     + In Virtualbox, start the VM.
     + Once it's done booting, click on the terminal icon at the bottom
     + run ```sudo apt-get update```
+    + run ```sudo cp /etc/apt/sources.list{,.bkp}```
+    + run ```sudo cp sources.list /etc/apt/```
     + run ```sudo apt-get install ipython python-matplotlib python-sklearn```
 3. run ```ipython notebook --pylab``` from within this repository
 
