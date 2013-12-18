@@ -1,7 +1,7 @@
 \documentclass[
-handout,
+%handout,
 %article,
-%final,
+final,
 12pt,
 ]{beamer}
 %\usepackage{pgfpages}
@@ -64,10 +64,28 @@ handout,
 \item a $d$-dimensional feature vector: $\bx_i = (x_1, x_2, \dots, x_d)$, with $x_i \in \mathbb{R}$
 \item target variable $y_i \in \mathbb{R} (\mathbb{N})$ for regression (classification)
 \item assume $y_i = f(\bx_i) + \epsilon$, where $\epsilon$ is some form of noise or uncertainty and $f$ is some function we would like to (machine) learn
-\item theory typically requires a bit of linear algebra (mostly Matrix calculus) and analysis (gradient descent, Lagrange multipliers, ...) knowledge
+\item feature Matrix ${\bf X} =
+\left(
+	\begin{array}{c} \bx_1 \\ \bx_2 \\ \vdots \\ \bx_n \end{array}
+\right)
+$, has $n$ rows, $d$ columns
+\item target vector ${\bf y} = (y_1, y_2, \dots, y_n)$.
+
 \end{itemize}
 }
-
+\frame{\frametitle{Training Set / Test Set / Cross Validation}
+\begin{itemize}
+\item For supervised learning in a real world applications we would have a training set for which we know the feature matrix $\bf X$ and the target vector $\bf y$ and a test set, for which we only know the feature matrix $\bf X$ and try to predict $\bf y$.
+\item In practice we often use a technique called cross validation (CV) to generate several training and pseudo test sets from the training set
+\item Typically we partition the data into 5 folds, and then iteratively select one fold as test set and the other 4 as training set.
+\item Say we have 5 instances $[1,2,3,4,5]$ , with 5 fold CV this then becomes
+\item $$
+\underbrace{1,2,3,4}_{\textrm{train}} \underbrace{5}_{\textrm{test}} \quad  
+\underbrace{1,2,3,5}_{\textrm{train}} \underbrace{4}_{\textrm{test}} \quad  ... \quad
+\underbrace{2,3,4,5}_{\textrm{train}} \underbrace{1}_{\textrm{test}}
+$$
+\end{itemize}
+}
 \end{document}
 %
 %
