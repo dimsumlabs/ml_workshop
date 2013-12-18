@@ -1,18 +1,43 @@
 # SKLEARN WORKSHOP SETUP
-1. If you have ```scikit-learn```, ```matplotlib``` and ```ipython``` installed go to 3. 
-2. Set up the VM:
-    + Install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
-    + Download the ```NeuroDebian``` VM http://neuro.debian.net/debian/vm/NeuroDebian_7.2.0_amd64.ova
-    + Open ```Virtualbox```
-    + Follow http://neuro.debian.net/vm.html
-    + In Virtualbox, start the VM.
-    + Once it's done booting, click on the terminal icon at the bottom
-    + DON'T DO THE FOLLOWING 2 STEPS IF YOU'RE NOT IN THE VM
-        + run ```sudo cp /etc/apt/sources.list{,.bkp}```
-        + run ```sudo cp sources.list /etc/apt/```
-    + run ```sudo apt-get update```
-    + run ```sudo apt-get install ipython python-matplotlib python-sklearn```
-3. run ```ipython notebook --pylab``` from within this repository and open a new notebook.
+If you have ```scikit-learn```, ```matplotlib``` and ```ipython``` 
+installed you can just run ```ipython notebook --pylab```. Otherwise there are
+3 different ways of installing the tools below. 
 
+- If you're on Windows I recommend setting up a VM. 
+- If you're on Mac OSX I recommend either using the VM or setting up a virtual
+  python environment.
+- If you're running a Linux distro with package manager I recommend either 
+  install the depencies system wide via the package manager or setting up
+  a virtual python environment and installing the tools via pip.
 
+## Set Up the VM
++ Install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
++ Download the ```NeuroDebian``` VM http://neuro.debian.net/debian/vm/NeuroDebian_7.2.0_amd64.ova
++ Open ```Virtualbox```
++ Follow http://neuro.debian.net/vm.html
++ In Virtualbox, start the VM.
++ Once it's done booting, click on the terminal icon at the bottom
++ DON'T DO THE FOLLOWING 2 STEPS IF YOU'RE NOT IN THE VM
+    + run ```sudo cp /etc/apt/sources.list{,.bkp}```
+    + run ```sudo cp sources.list /etc/apt/```
++ run ```sudo apt-get update```
++ run ```sudo apt-get install ipython python-matplotlib python-sklearn```
+
+## Debian / Ubuntu
+Run 
+```
+sudo apt-get install ipython python-matplotlib python-sklearn
+```
+
+## In a virtual environment
+If inside a virtual environment run
+```
+pip install numpy scipy matplotlib ipython scikit-learn
+```
+you may need to install some additional system level
+dependencies if this command fails.
+
+## Start the ipython notebook server
+Run ```ipython notebook --pylab``` from within this repository and open a new
+notebook.
 
