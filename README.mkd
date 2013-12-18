@@ -3,9 +3,7 @@ If you have ```scikit-learn```, ```matplotlib``` and ```ipython```
 installed you can just run ```ipython notebook --pylab```. Otherwise there are
 3 different ways of installing the tools below. 
 
-- If you're on Windows I recommend setting up a VM. 
-- If you're on Mac OSX I recommend either using the VM or setting up a virtual
-  python environment.
+- If you're on Windows or Mac OSX I recommend setting up a VM. 
 - If you're running a Linux distro with package manager I recommend either 
   install the depencies system wide via the package manager or setting up
   a virtual python environment and installing the tools via pip.
