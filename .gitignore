@@ -1,0 +1,12 @@
+*.swp
+*.aux
+*.log
+*.toc
+*.nav
+*.out
+*.pdf
+*.bcf
+*.xml
+*.snm
+*.pyc
+.ipynb_checkpoints
