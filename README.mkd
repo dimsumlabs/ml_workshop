@@ -20,18 +20,13 @@ installed you can just run ```ipython notebook --pylab```. Otherwise there are
   install the depencies system wide via the package manager or setting up
   a virtual python environment and installing the tools via pip.
 
-## Set Up the VM
-+ Install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
-+ Download the ```NeuroDebian``` VM http://neuro.debian.net/debian/vm/NeuroDebian_7.2.0_amd64.ova
-+ Open ```Virtualbox```
-+ Follow http://neuro.debian.net/vm.html
-+ In Virtualbox, start the VM.
-+ Once it's done booting, click on the terminal icon at the bottom
-+ DON'T DO THE FOLLOWING 2 STEPS IF YOU'RE NOT IN THE VM
-    + run ```sudo cp /etc/apt/sources.list{,.bkp}```
-    + run ```sudo cp sources.list /etc/apt/```
-+ run ```sudo apt-get update```
-+ run ```sudo apt-get install ipython python-matplotlib python-sklearn```
+## Set Up a VM
++ install ```Virtualbox``` from https://www.virtualbox.org/wiki/Downloads
++ download a ubuntu virtualbox image from http://virtualboxes.org/images/ubuntu/, 12.04 or newer recommended
++ add the appliance to virtualbox, click Machine -> Add, then navigate to the *.vbox file
++ once added, fire up the vm, log in with username/password provided on virtualboxes.org
++ in a terminal, run ```sudo apt-get update```
++ followed by ```sudo apt-get install ipython python-matplotlib python-sklearn```
 
 ## Debian / Ubuntu
 Run 
