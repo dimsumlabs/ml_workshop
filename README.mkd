@@ -1,3 +1,15 @@
+# SCRAPY WORKSHOP SETUP
+You need ```ipython``` and ```scrapy```, python mysql bindings ```mysqldb``` and mysql server ```mysql``` or ```mariadb``` (to run a mysql server and write some data into a database table from within our scraper).
+
+Should be rather easy to install those systemwide or with pip,
+```
+pip install ipython Scrapy python-MySQLdb
+```
+To install ```mysql-server``` on ubuntu for example,
+```
+sudo apt-get install mysql-server
+```
+
 # SKLEARN WORKSHOP SETUP
 If you have ```scikit-learn```, ```matplotlib``` and ```ipython``` 
 installed you can just run ```ipython notebook --pylab```. Otherwise there are
