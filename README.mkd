@@ -3,7 +3,7 @@ You need ```ipython``` and ```scrapy```, python mysql bindings ```mysqldb``` and
 
 Should be rather easy to install those systemwide or with pip,
 ```
-pip install ipython Scrapy python-MySQLdb
+pip install ipython Scrapy MySQL-python
 ```
 To install ```mysql-server``` on ubuntu for example,
 ```
